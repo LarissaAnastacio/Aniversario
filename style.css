@@ -1,3 +1,29 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body { font-family: 'Poppins', sans-serif; background-color: #f3efff; color: #4a4a4a; line-height: 1.6; }
+
+.hero { height: 100vh; background: linear-gradient(135deg, rgba(255, 183, 197, 0.7), rgba(179, 157, 219, 0.7)); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; color: white; padding: 0 20px; }
+
+.hero h1 { font-family: 'Sacramento', cursive; font-size: 4rem; margin-bottom: 10px; text-shadow: 2px 2px 4px rgba(0,0,0,0.2); }
+
+.subtitle { font-size: 1.2rem; margin-bottom: 25px; }
+
+.btn { background-color: #ff85a1; color: white; padding: 12px 30px; border-radius: 30px; text-decoration: none; font-weight: 600; transition: background 0.3s; }
+
+.btn:hover { background-color: #d66d87; }
+
+section { padding: 60px 20px; max-width: 900px; margin: 0 auto; text-align: center; }
+
+h2 { font-size: 2.2rem; margin-bottom: 40px; color: #9b72cb; }
+
+.gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+
+.photo-card { background: #ffffff; padding: 15px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border: 2px solid #fce4ec; }
+
+.photo-card img { width: 100%; height: 250px; object-fit: cover; border-radius: 8px; }
+
+.message-box { background: #ffffff; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); text-align: left; border-top: 5px solid #d1c4e9; }
+
 /* Ajuste elegante para as músicas do Spotify */
 .spotify-section {
     display: flex;
@@ -7,7 +33,9 @@
 }
 
 .spotify-section iframe {
-    margin-bottom: 25px; /* Espaço entre cada player */
-    max-width: 600px;    /* Limita a largura para ficar mais bonito em telas grandes */
+    margin-bottom: 25px; 
+    max-width: 600px;    
     width: 100%;
 }
+
+footer { text-align: center; padding: 30px; background-color: #ede7f6; font-size: 0.9rem; color: #7e57c2; }
