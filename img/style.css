@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fdfbf7;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Capa */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('img/foto1.jpg') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.hero h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 4.5rem;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+
+.btn {
+    background-color: #ff6b81;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #ff4757;
+}
+
+/* Seções Gerais */
+section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.2rem;
+    margin-bottom: 40px;
+    color: #444;
+}
+
+/* Galeria */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+}
+
+.photo-card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.photo-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Mensagem */
+.message-box {
+    background: white;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+.message-box p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #f4efe6;
+    font-size: 0.9rem;
+    color: #666;
+}
