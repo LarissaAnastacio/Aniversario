@@ -1,0 +1,13 @@
+/* Ajuste elegante para as músicas do Spotify */
+.spotify-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.spotify-section iframe {
+    margin-bottom: 25px; /* Espaço entre cada player */
+    max-width: 600px;    /* Limita a largura para ficar mais bonito em telas grandes */
+    width: 100%;
+}
